@@ -1,27 +1,31 @@
-# Laravel PHP Framework
+This Blog is a personal blog for you and me;(好多人都要看项目，虽然暂未完全写完但是先上传了😂，后续会陆续完成)
+**Ainightf Blog** is powered by some powerful frameworks and third-party projects:
+- [Layer](http://layer.layui.com/)  A most popular framework helps development teams everywhere build simple, fast and flexible layer.
+- [uploadify](http://www.uploadify.com/)  A HTML5 or Flash Multiple File Upload jQuery Plugin Script
+- [MySQL](http://www.mysql.com/)  A popular relational database.
+- [UEditor](http://ueditor.baidu.com/website/)  A rich text web editor by baidu.
 
-[![Build Status](https://travis-ci.org/laravel/framework.svg)](https://travis-ci.org/laravel/framework)
-[![Total Downloads](https://poser.pugx.org/laravel/framework/d/total.svg)](https://packagist.org/packages/laravel/framework)
-[![Latest Stable Version](https://poser.pugx.org/laravel/framework/v/stable.svg)](https://packagist.org/packages/laravel/framework)
-[![Latest Unstable Version](https://poser.pugx.org/laravel/framework/v/unstable.svg)](https://packagist.org/packages/laravel/framework)
-[![License](https://poser.pugx.org/laravel/framework/license.svg)](https://packagist.org/packages/laravel/framework)
+## To use
+Fork Ainightf-blog project, download it to local computer.
+Create A J2EE Web Application Product by IDEA, import the source code into it.
+Create a db.properties file like this:
+```
+blog_user:
+user_id=xxx
+user_pass=xxx
+user_name=xxx
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable, creative experience to be truly fulfilling. Laravel attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as authentication, routing, sessions, queueing, and caching.
-
-Laravel is accessible, yet powerful, providing tools needed for large, robust applications. A superb inversion of control container, expressive migration system, and tightly integrated unit testing support give you the tools you need to build any application with which you are tasked.
-
-## Official Documentation
-
-Documentation for the framework can be found on the [Laravel website](http://laravel.com/docs).
-
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](http://laravel.com/docs/contributions).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell at taylor@laravel.com. All security vulnerabilities will be promptly addressed.
+blog_category:
+cate_id=xxx
+cate_name=xxx
+cate_title=xxx
+cate_keywords=xxx
+user_description=xxx
+user_view=xxx
+user_order=xxx
+user_pid=xxx
+```
+```
 
 ## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT).
+Apache License
