@@ -20,10 +20,11 @@ cate_id=xxx
 cate_name=xxx
 cate_title=xxx
 cate_keywords=xxx
-user_description=xxx
-user_view=xxx
-user_order=xxx
-user_pid=xxx
+cate_description=xxx
+cate_view=xxx
+cate_order=xxx
+cate_pid=xxx
+...
 ```
 ```
 
